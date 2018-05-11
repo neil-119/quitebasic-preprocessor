@@ -1,2 +1,2 @@
 # quitebasic-preprocessor
-Preprocessor to add support for named subroutines and variables, full color image rendering, and Super Mario mechanics implementation
+A QB preprocessor to add support for named subroutines and variables, full color image rendering, and VS output linking. Also a Super Mario mechanics implementation written with the aid of the preprocessor. Outputs 100% BASIC code (requirements of the ng-hackathon this year). Just open the solution and hit debug.

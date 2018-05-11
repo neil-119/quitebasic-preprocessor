@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0031)http://www.quitebasic.com/save/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Quite BASIC  — Mario</title>
+<meta name="description" content="Quite BASIC is a web-based classic BASIC interpreter. It�s a learning resource but has also become a celebration to the early days of personal computing.">
+<style type="text/css">
+body {
+background-color: #000000;
+font-family: Helvetica,Arial,Sans-Serif; 
+font-size: 8pt;
+color: #EFAF20;
+width: 500px;
+}
+p {
+text-align: justify;
+}
+h1 {
+font-size: 18pt;
+color: #3FAF3F;
+}
+h2 {
+font-size: 10pt;
+color: #9F009F;
+}
+input, textarea {
+  font-family: Helvetica,Arial,Sans-Serif; 
+  font-size: 8pt;
+  color: #AFAFAF;
+  background-color: #000000;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+input.submit {
+  font-weight: bold;
+  color: #EFAF20;
+}
+div#leftpane { 
+float: left;
+margin-right: 25px;
+width: 200px;
+}
+div#rightpane { 
+float: left;
+width: 200px;
+}
+</style>
+	
+</head>
+<body>
+  <h1>Quite BASIC Project</h1>
+  <form method="POST" action="http://www.quitebasic.com/user/" target="_top">
+  <div id="leftpane">
+    <p>This page contains your entire project, including the BASIC program 
+    (even though you can't see it).</p>
+    <h2>Saving</h2>
+    <p>Simply save this page from your <i>Browser</i>. The details are
+    different for different browsers, but it will be similar to right clicking and select "Save as..."</p>
+    <p>To stop the browser from wrapping lines, select to save as "Web page
+    only" or "HTML only".</p>
+    <p>This is an HTML document, so when you save the page, make sure you give
+    it an .html or .htm file extension.</p>
+    <p>Later you can open this project simply by opening the saved file in your
+    browser.  You will be automatically redirected to the www.quitebasic.com
+    site (if not, <input class="submit" type="submit" value="click here"> to go to Quite BASIC).</p>
+    <h2>Publishing</h2>
+    <p>You can also publish this page on the web. All you need to do is upload
+    this page to your site and make a link to it.</p>
+  </div>
+  <div id="rightpane">
+    <h2>Title</h2>
+    <input name="title" value="Mario" type="text" readonly="readonly" size="40">
+
+    <h2>Description</h2>
+    <textarea name="description" cols="30" rows="15" readonly="readonly">Mario created for the ng-hackathon at LHI, written in 100% BASIC, featuring a custom rendering engine, Visual Studio tooling support, and more.</textarea>
+
+<textarea name="program" cols="0" rows="0" wrap="off" style="visibility: hidden;">
+{{{ RENDER_BODY }}}
+</textarea>  
+
+<br>
+    <input name="canvas" value="75x75" type="hidden">
+  </div>
+  <script type="text/javascript" async="" src="./Mario_files/ga.js.download"></script><script type="text/javascript">
+  if (!String(window.location).match(/quitebasic.com/)) document.forms[0].submit();
+  </script>
+  </form>
+
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1186139-1']);
+  _gaq.push(['_setDomainName', 'quitebasic.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body></html>
