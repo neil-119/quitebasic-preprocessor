@@ -48,6 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="images\goomba-left.psd" />
+    <None Include="images\goomba-right.psd" />
     <None Include="images\levelone.psd" />
     <None Include="images\mario-down-left-still.psd" />
     <None Include="images\mario-down-right-still.psd" />
@@ -63,6 +65,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\goomba-left.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\goomba-right.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="images\levelone_01.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 /*
  * Here are some of the limitations of QuiteBasic:
+     - screen resolution from maybe the 1960's
      - QuiteBasic peaks at one frame per 7-12 seconds on a modern Core i7 machine
      - no support for real variable names
      - no param stack for subroutines
+     - no multidimensional arrays
      - severe input buffer lag
      - lack of support for multiple keypresses
      - no support for key press and hold
      - limit at 9999 lines
-     - no support for logical AND / OR
      - no support for nested conditionals
      - use of GOTOs
      - no support for timers
@@ -98,6 +99,7 @@ namespace BASIC_preprocessor_cs
             System.Diagnostics.Process.Start("out.html");
         }
 
+        // Encode pixel data of the image
         private static string GetColorsFromBitmap(System.Drawing.Bitmap bmp)
         {
             var pixels = new string[bmp.Width * bmp.Height];
